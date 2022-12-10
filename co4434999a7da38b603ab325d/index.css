@@ -1,0 +1,53 @@
+@font-face {
+    font-family: 'digital7';
+    src: url('Digital7Italic-BW658.ttf');
+}
+@font-face {
+    font-family: 'cursedTimer';
+    src: url('CursedTimerUlil-Aznm.ttf');
+}
+
+body {
+    text-align: center;
+    background-color: #1B244A;    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.team{
+    font-family: 'Verdana';
+    font-style: normal;
+    font-size: 40px;
+    color: #EEEEEE;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.scoreboard{
+    height: 120px;
+    width: 155px;
+    font-family: 'cursedTimer'; 
+    font-size: 90px;
+    color: red;
+    background: black;
+    margin: 0px 5px 10px 5px;
+    line-height: 120px;
+    //padding: 15px 19px;
+}
+
+.btn{
+    height: 45px;
+    width: 45px;
+    font-family: 'cursedTimer';
+    font-size: 18px; 
+    color: white;
+    background: transparent;
+    margin: 3px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
